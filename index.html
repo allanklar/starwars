@@ -9,13 +9,12 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <script src="https://use.fontawesome.com/486582c8eb.js"></script>
-  </head>
   <body>
     <header class="header">
       <img  class="logo" src="images/logo.png" alt="Star Wars Logo">
-      <div class="counter">
 
-      </div>
+
+
     </header>
     <section class="trailer-bar">
       <h2>WATCH THE TRAILER</h2>
@@ -28,15 +27,17 @@
         <img  class="icon" src="images/twitter.png" alt="Twitter">
 
       </section>
+    
       <div class="video-responsive">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/8Qn_spdM5Zg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
       </div>
+
       <section class="details">
-        <div class="poster">
-          <img class="poster" src="images/poster.png" alt="Twitter">
-        </div>
-        <div class="movie-details">
+        <section class="poster">
+          <img class="responsive" src="images/poster.png" alt="Movie poster">
+        </section>
+        <section class="movie-details">
           <ul>
             <h2>Directed by:</h2>
             <li>J.J. Abrams</li>
@@ -49,16 +50,16 @@
             <h2>Cast:</h2>
             <li>Daisy Ridley, Oscar Isaac, John Boyega, Adam Driver, Keri Russell, Lupita Nyong'o, Mark Hamill, Carrie Fisher, Richard Grant, Anthony Daniels, Domhnall Gleeson, Dominic Monaghan, and Greg Grunberg</li>
           </ul>
-        </div>
+          <section class="notify">
+            <p class="notify">Let me know when tickets go on sale</p>
+            <form class="email-form" action="index.html" method="post">
+              <input type="text" name="email" placeholder="Your email..">
+              <input type="submit" name="button" value="NOTIFY ME" class="button">
 
-      </section>
-      <section class="notify">
-        <p class="notify">Let me know when tickets go on sale</p>
-        <form class="email-form" action="index.html" method="post">
-          <input type="text" name="email" placeholder="Your email..">
-          <input type="submit" name="button" value="NOTIFY ME" class="button">
+            </form>
 
-        </form>
+          </section>
+        </section>
 
       </section>
 
@@ -74,8 +75,6 @@
         TM & © Lucasfilm Ltd. All Rights Reserved
       </section>
 
-
     </footer>
-
   </body>
 </html>

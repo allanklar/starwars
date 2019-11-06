@@ -26,7 +26,7 @@ body {
 
 
 .container {
-
+  width: 100%;
   min-height: 500px;
   padding: 0 2rem;
 
@@ -38,6 +38,8 @@ body {
   color: white;
   text-align: center;
 }
+
+
 
 
 footer {
@@ -115,6 +117,7 @@ li {
 
 .movie-details {
   padding: 1rem 0;
+  text-align: left;
 
 }
 
@@ -130,12 +133,9 @@ p.notify {
   color: red;
 }
 
-.poster {
+.responsive {
   width: 100%;
-  margin: 1rem 0;;
-  text-align: center;
-
-
+  height: auto;
 }
 
 section {
@@ -143,8 +143,16 @@ section {
   margin: 2rem 0;
 }
 
+section.countdown {
+  width: 100%;
+  min-height: 150px;
+  margin-top: 30rem;
+}
+
 section.details {
+  width: 100%;
   margin: 2rem 0;
+  text-align: center;
 
 }
 
@@ -153,11 +161,19 @@ section.notify {
 
 }
 
+section.poster {
+  width: 100%;
+}
+
 section.social {
   margin: 2rem 0;
   text-align: center;
 
 
+}
+
+section.video {
+  text-align: center;
 }
 
 .footer-logo {
@@ -180,6 +196,7 @@ ul {
 
 .video {
   width: 100%;
+  text-align: center;
 }
 
 .video-responsive{
@@ -187,6 +204,7 @@ ul {
     padding-bottom:56.25%;
     position:relative;
     height:0;
+    text-align: center;
 }
 .video-responsive iframe{
     left:0;
@@ -194,13 +212,96 @@ ul {
     height:100%;
     width:100%;
     position:absolute;
+    text-align: center;
 }
 
 /** Ipad **/
 
 @media screen and (min-width: 768px) {
 
+  .logo {
+    width: 65%;
+  }
 
+  .responsive {
+    width: 85%;
+    height: auto;
+  }
+
+}
+
+/*** desktop ***/
+
+@media screen and (min-width: 1024px) {
+
+  .logo {
+    width: 45%;
+  }
+
+  .responsive {
+    width: 85%;
+    height: auto;
+  }
+
+  section.details {
+  display: grid;
+  grid-gap: 20px;
+  padding: 2rem 2rem;
+  grid-template-columns: repeat(auto-fill, minmax(600px, 1fr) ) ;
+
+  }
+
+
+
+}
+
+@media screen and (min-width: 1500px) {
+
+  .logo {
+    width: 35%;
+  }
+
+  .responsive {
+    width: 85%;
+    height: auto;
+  }
+
+  section.details {
+  display: grid;
+  grid-gap: 20px;
+  padding: 2rem 2rem;
+  grid-template-columns: repeat(auto-fill, minmax(600px, 1fr) ) ;
+
+  }
+
+  .video {
+    width: 100%;
+    text-align: center;
+  }
+  .video-responsive{
+      overflow:hidden;
+      padding-bottom:56.25%;
+      position:relative;
+      height:0;
+      text-align: center;
+  }
+  .video-responsive iframe{
+      left:12rem;
+      top:0;
+      height:80%;
+      width:80%;
+      position:absolute;
+      margin-bottom: 0;
+
+  }
+
+}
+
+@media screen and (min-width: 1700px) {
+
+  .logo {
+    width: 30%;
+  }
 
 
 
