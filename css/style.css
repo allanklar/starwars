@@ -2,6 +2,206 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: black;
+  padding: 0 0;
+  margin: 0;
+}
+
+.button {
+  background-color: red;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.8rem;
+  width: 100%;
+  margin: 2rem 0;
+
+}
+
+
+.container {
+
+  min-height: 500px;
+  padding: 0 2rem;
+
+}
+
+.copyright {
+  font-size: 1rem;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  text-align: center;
+}
+
+
+footer {
+  background-color: #012F65;
+  min-height: 284px;
+  margin-bottom: 0;
+  margin-top: 2rem;
+  text-align: center;
+
+}
+
+
+.header {
+  background: url(/images/header_image.png) center / cover;
+  height: 100vh;
+  text-align: center;
+  color: #ffffff;
+  padding: 5rem 1rem;
+  width: 100%;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-weight: bold;
+  font-size: 2rem;
+
+
+}
+
+
 html {
   font-size: 10px;
+}
+
+.icon {
+  width: 40px;
+  height: auto;
+  margin: 0 1rem;2
+
+
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  height: 4rem;
+  font-size: 1.8rem;
+
+}
+
+input[type=button] {
+  background:none;
+  border:none;
+  color:#FFF;
+  cursor:pointer;
+
+}
+
+li {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight:  100;
+  font-size: 1.8rem;
+  line-height: 1.7;
+  list-style-type: none;
+
+
+}
+
+.logo {
+  width: 80%;
+}
+
+.movie-details {
+  padding: 1rem 0;
+
+}
+
+p {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight:  100;
+  font-size: 1.8rem;
+  line-height: 1.5;
+}
+
+p.notify {
+  color: red;
+}
+
+.poster {
+  width: 100%;
+  margin: 1rem 0;;
+  text-align: center;
+
+
+}
+
+section {
+  width: 100%;
+  margin: 2rem 0;
+}
+
+section.details {
+  margin: 2rem 0;
+
+}
+
+section.notify {
+  margin: 2rem 0;
+
+}
+
+section.social {
+  margin: 2rem 0;
+  text-align: center;
+
+
+}
+
+.footer-logo {
+  width: 200px;
+  margin: 2rem 0;
+
+}
+
+
+.trailer-bar {
+  background-color: #D4344D;
+  padding: 10px 0;
+  text-align: center;
+
+}
+
+ul {
+  padding-left: 1rem;
+}
+
+.video {
+  width: 100%;
+}
+
+.video-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.video-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+/** Ipad **/
+
+@media screen and (min-width: 768px) {
+
+
+
+
+
 }
