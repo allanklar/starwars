@@ -39,6 +39,13 @@ body {
   text-align: center;
 }
 
+.counter {
+  background-color: green;
+  width: 100%;
+  min-height: 150px;
+  margin-top: 30rem;
+}
+
 
 
 
@@ -48,6 +55,12 @@ footer {
   margin-bottom: 0;
   margin-top: 2rem;
   text-align: center;
+
+}
+
+.footer-logo {
+  width: 200px;
+  margin: 2rem 0;
 
 }
 
@@ -101,6 +114,21 @@ input[type=button] {
 }
 
 li {
+  font-family: 'Montserrat', sans-serif;
+  display: inline-block;
+  font-size: 1.2rem;
+  list-style-type: none;
+  padding: 1em;
+  text-transform: uppercase;
+}
+
+li span {
+  display: block;
+  font-size: 4.5rem;
+}
+
+
+li.details {
   color: white;
   font-family: 'Montserrat', sans-serif;
   font-weight:  100;
@@ -112,7 +140,7 @@ li {
 }
 
 .logo {
-  width: 80%;
+  width: 90%;
 }
 
 .movie-details {
@@ -176,12 +204,6 @@ section.video {
   text-align: center;
 }
 
-.footer-logo {
-  width: 200px;
-  margin: 2rem 0;
-
-}
-
 
 .trailer-bar {
   background-color: #D4344D;
@@ -219,6 +241,16 @@ ul {
 
 @media screen and (min-width: 768px) {
 
+  li {
+    font-size: 2rem;
+
+  }
+
+  li span {
+
+    font-size: 8rem;
+  }
+
   .logo {
     width: 65%;
   }
@@ -226,6 +258,10 @@ ul {
   .responsive {
     width: 85%;
     height: auto;
+  }
+
+  section.countdown {
+    margin-top: 45rem;
   }
 
 }
@@ -300,9 +336,11 @@ ul {
 @media screen and (min-width: 1700px) {
 
   .logo {
-    width: 30%;
+    width: 25%;
   }
 
-
+  section.countdown {
+    margin-top: 40rem;
+  }
 
 }

@@ -4,16 +4,25 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Star Wars Rise of SKywalker | Coming 12 | 20 | 2019</title>
+    <title>Star Wars Rise of Skywalker | Coming 12 | 20 | 2019</title>
     <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <script src="https://use.fontawesome.com/486582c8eb.js"></script>
+
   <body>
     <header class="header">
       <img  class="logo" src="images/logo.png" alt="Star Wars Logo">
 
+      <section class="countdown">
+        <ul>
+          <li><span id="days"></span>days</li>
+          <li><span id="hours"></span>Hours</li>
+          <li><span id="minutes"></span>Minutes</li>
+          <li><span id="seconds"></span>Seconds</li>
+      </ul>
 
+      </section>
 
     </header>
     <section class="trailer-bar">
@@ -27,7 +36,7 @@
         <img  class="icon" src="images/twitter.png" alt="Twitter">
 
       </section>
-    
+
       <div class="video-responsive">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/8Qn_spdM5Zg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -40,15 +49,15 @@
         <section class="movie-details">
           <ul>
             <h2>Directed by:</h2>
-            <li>J.J. Abrams</li>
+            <li class="details">J.J. Abrams</li>
           </ul>
           <ul>
             <h2>Written by:</h2>
-            <li>J.J. Abrams, Chris Terrio</li>
+            <li class="details">J.J. Abrams, Chris Terrio</li>
           </ul>
           <ul>
             <h2>Cast:</h2>
-            <li>Daisy Ridley, Oscar Isaac, John Boyega, Adam Driver, Keri Russell, Lupita Nyong'o, Mark Hamill, Carrie Fisher, Richard Grant, Anthony Daniels, Domhnall Gleeson, Dominic Monaghan, and Greg Grunberg</li>
+            <li class="details">Daisy Ridley, Oscar Isaac, John Boyega, Adam Driver, Keri Russell, Lupita Nyong'o, Mark Hamill, Carrie Fisher, Richard Grant, Anthony Daniels, Domhnall Gleeson, Dominic Monaghan, and Greg Grunberg</li>
           </ul>
           <section class="notify">
             <p class="notify">Let me know when tickets go on sale</p>
@@ -76,5 +85,6 @@
       </section>
 
     </footer>
+    <script src="script/countdown.js"></script>
   </body>
 </html>
