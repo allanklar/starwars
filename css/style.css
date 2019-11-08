@@ -339,6 +339,11 @@ ul {
     width: 25%;
   }
 
+  .responsive {
+    width: 65%;
+    height: auto;
+  }
+
   section.countdown {
     margin-top: 40rem;
   }
